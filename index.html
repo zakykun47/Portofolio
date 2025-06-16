@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MUHAMAD FIRMAN IRJIANTO | Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Dots -->
+    <div class="nav-dots">
+        <a href="#profile" class="dot active"></a>
+        <a href="#about" class="dot"></a>
+        <a href="#gallery" class="dot"></a>
+        <a href="#music" class="dot"></a>
+    </div>
+
+    <!-- Profile Section -->
+    <section id="profile" class="full-page">
+        <div class="profile-container">
+            <div class="profile-img-container">
+                <img src="assets/profile/image/profile.jpg" alt="Profile Photo" class="profile-img" id="profilePhoto">
+                <input type="file" id="photoUpload" accept="image/*" style="display: none;">
+                <button class="upload-btn" onclick="document.getElementById('photoUpload').click()">
+                    <i class="fas fa-camera"></i> Ganti Foto
+                </button>
+            </div>
+            <h1>MUHAMAD FIRMAN IRJIANTO</h1>
+            <p class="subtitle"><em>Desainer and Gamers</em></p>
+            <div class="social-icons">
+                <a href="#" class="social-icon"><i class="fab fa-tiktok"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-github"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+            </div>
+        </div>
+        <div class="scroll-down">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="full-page">
+        <div class="about-container">
+            <div class="about-text">
+                <h2>About Me</h2>
+                <p>Saya Muhamad Firman Irjianto, saya lulusan dari sekolah kejuruan TKJ pada tahun 2024. Memiliki kemampuan di bidang komputer dan jaringan memahami tentang perkembangan teknologi digital, menyukai hal hal baru dan belajar teknologi baru. Hobi saya bermain Game, Desain simple, Coding dan membaca komik. Memiliki sikap yang ramah tapi sulit untuk berinteraksi lebih suka melakukan sendiri dan jika ada masalah lebih memilih membicarakan baik-baik daripada marah-marah.</p>
+                <div class="hobby-tags">
+                    <span class="tag">Gaming</span>
+                    <span class="tag">Design</span>
+                    <span class="tag">Coding</span>
+                    <span class="tag">Manga</span>
+                    <span class="tag">Networking</span>
+                </div>
+            </div>
+            <div class="about-img">
+                <img src="assets/profile/image/about.jpg" alt="About Photo">
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="full-page">
+        <h2>Game Accounts</h2>
+        <div class="gallery-container">
+            <div class="game-section">
+                <h3>Mobile Legends</h3>
+                <div class="game-img">
+                    <img src="assets/game/image/ml-account.jpg" alt="Mobile Legends Account" id="mlImage">
+                    <input type="file" id="mlUpload" accept="image/*" style="display: none;">
+                    <button class="upload-btn" onclick="document.getElementById('mlUpload').click()">
+                        <i class="fas fa-camera"></i> Ganti Foto
+                    </button>
+                </div>
+            </div>
+            <div class="game-section">
+                <h3>PGR</h3>
+                <div class="game-images">
+                    <div class="game-img">
+                        <img src="assets/game/image/pgr-account1.jpg" alt="PGR Account 1" id="pgrImage1">
+                        <input type="file" id="pgrUpload1" accept="image/*" style="display: none;">
+                        <button class="upload-btn" onclick="document.getElementById('pgrUpload1').click()">
+                            <i class="fas fa-camera"></i> Ganti Foto
+                        </button>
+                    </div>
+                    <div class="game-img">
+                        <img src="assets/game/image/pgr-account2.jpg" alt="PGR Account 2" id="pgrImage2">
+                        <input type="file" id="pgrUpload2" accept="image/*" style="display: none;">
+                        <button class="upload-btn" onclick="document.getElementById('pgrUpload2').click()">
+                            <i class="fas fa-camera"></i> Ganti Foto
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="game-section">
+                <h3>Honkai Star Rail</h3>
+                <div class="game-img">
+                    <img src="assets/game/image/hsr-account.jpg" alt="Honkai Star Rail Account" id="hsrImage">
+                    <input type="file" id="hsrUpload" accept="image/*" style="display: none;">
+                    <button class="upload-btn" onclick="document.getElementById('hsrUpload').click()">
+                        <i class="fas fa-camera"></i> Ganti Foto
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Music Section -->
+    <section id="music" class="full-page">
+        <h2>Favorite Music</h2>
+        <div class="music-container">
+            <div class="video-wrapper">
+                <iframe src="https://www.youtube.com/embed/nk1YROYzD2c" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="video-wrapper">
+                <iframe src="https://www.youtube.com/embed/1sLk-4t7ttA" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="video-wrapper">
+                <iframe src="https://www.youtube.com/embed/qF_bHdkafAk" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="video-wrapper">
+                <iframe src="https://www.youtube.com/embed/anIwDAOhpFI" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 MUHAMAD FIRMAN IRJIANTO. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
